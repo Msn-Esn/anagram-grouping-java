@@ -20,7 +20,7 @@ import java.util.Map;
 
 class Solution {
   public static void main(String[] args) {
-    String filePath = "/home/coderpad/data/example1.txt";  // Update the file path as needed
+    String filePath = "/home/coderpad/data/example2.txt";  // Update the file path as needed
         try {
             Map<String, List<String>> anagramGroups = groupAnagramsFromFile(filePath);
             printAnagramGroups(anagramGroups);
